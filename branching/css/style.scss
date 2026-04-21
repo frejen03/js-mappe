@@ -33,7 +33,7 @@ main {
     max-width: 800px; //px okay her, da den stadig er responsiv pga "max"
     padding: $space;
 
-    &.active {
+    &.active { // Altså en class "&" "active"
         display: block; //Kan gøre ting synligt igen
     }
 
