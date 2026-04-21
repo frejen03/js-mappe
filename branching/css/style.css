@@ -1,1 +1,22 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main {
+  background-color: #02142b;
+  color: #cff6ea;
+}
+
+.stage {
+  background-color: #cff6ea;
+  color: #02142b;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.stage .btn {
+  background-color: #6623b8;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}/*# sourceMappingURL=style.css.map */

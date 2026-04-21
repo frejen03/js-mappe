@@ -1,0 +1,35 @@
+//====================VARIABLER====================//
+
+//FARVER
+$bg: #02142b;
+$primaryColor: #cff6ea;
+$cta: #6623b8;
+$cta-hover: #fa3292;
+
+//LAYOUT
+$space: 1rem;
+
+//=================================================//
+
+* {
+    box-sizing: border-box; //100% af skærmen vil faktisk være 100%
+    margin: 0; //Så der ikke er automatisk definerede margins på elementer
+}
+
+main {
+    background-color: $bg;
+    color: $primaryColor;
+}
+
+.stage {
+    background-color: $primaryColor;
+    color: $bg;
+    max-width: 800px; //Okay at arbejde med px her, da det er "max"-width --> derfor stadig responsiv
+    margin: 0 auto; //Altså --> Top+bund = 0 --> Siderne = :auto
+    padding: $space;
+    .btn {
+        background-color: $cta;
+        padding: $space/2; //Altså halvdelen af variablen
+        border-radius: $space;
+    }
+}
