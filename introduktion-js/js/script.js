@@ -77,4 +77,18 @@ console.log("Hello from Script");
         })
         */
 
+        //Function declaration eksempler
+        //Greeting uden parameter --> generel
         
+        function greeting() { //Kald den i browseren i console ved at skrive: gretting()
+            return `Hello`;
+        }
+        
+        //Greeting med parameter --> specifik
+        function greeting(name) { //Kald den i browseren i console ved FOR EKSEMPEL at skrive: gretting(Anna)
+            return `Hello ${name}`;
+        }
+
+        function changeBg(color) {
+            document.body.style.backgroundColor = color; //Kald den i browseren i console ved FOR EKSEMPEL at skrive: changeBG("red")
+        }
