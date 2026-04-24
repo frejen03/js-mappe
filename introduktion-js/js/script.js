@@ -1,4 +1,4 @@
-// Test to see if reference is correct
+/* // Test to see if reference is correct
 // Husk at "kommentér" al "console.log" ud inden aflevering!
 
 console.log("Hello from Script");
@@ -75,3 +75,6 @@ console.log("Hello from Script");
             // Den skal reagere ved at "changeBg"
             // EventListeners skal stå i bunden af JS
         })
+        */
+
+        
